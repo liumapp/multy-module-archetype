@@ -1,10 +1,9 @@
-package com.liumapp.backend.web.controller;
+package com.liumapp.frontend.web.controller;
 
 import com.liumapp.common.model.entity.Guest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -19,11 +18,13 @@ public class IndexController {
     @Autowired
     private Guest guest;
 
-    @GetMapping("/")
+    @RequestMapping("/")
     public String index (ModelMap modelMap) {
+
         modelMap.addAttribute("name" , guest.getName());
         modelMap.addAttribute("sex" , guest.getSex());
         return "index";
+
     }
 
 }
