@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.liumapp</groupId>
-    <artifactId>MultyModuleArchetypet</artifactId>
+    <artifactId>MultyModuleArchetype</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <groupId>com.liumapp</groupId>
