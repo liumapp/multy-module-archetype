@@ -23,24 +23,10 @@
 	</developers>
 
 	<modules>
-		<module>backend</module>
 		<module>common</module>
+		<module>backend</module>
 		<module>frontend</module>
 	</modules>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-	</build>
+
 </project>

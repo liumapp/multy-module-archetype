@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class Guest {
-    
+
     private String name;
 
     private String sex;
@@ -30,4 +30,11 @@ public class Guest {
         this.sex = sex;
     }
 
+    public Guest(String name, String sex) {
+        this.name = name;
+        this.sex = sex;
+    }
+
+    public Guest() {
+    }
 }

@@ -1,18 +1,20 @@
 package com.liumapp.common.model;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.liumapp.common.model.entity.Guest;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * Created by liumapp on 10/9/17.
  * E-mail:liumapp.com@gmail.com
  * home-page:http://www.liumapp.com
  */
-@SpringBootApplication
+@Configuration
 public class Main {
 
-    public static void main (String[] args) {
-        SpringApplication.run(Main.class , args);
+    @Bean
+    public Guest guest() {
+        return new Guest("honorific guest" , "boy");
     }
 
 }
