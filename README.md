@@ -25,4 +25,4 @@ A multy module springboot project , which was created for maven archetype.
 
 ### Something else
 
-* if you want a simple module project , plz view my another git repository [SpringBootMavenArchetype](https://github.com/liumapp/SpringBootMavenArchetype)
+* if you want a simple module project , plz view my another git repository [single-module-spring-boot-archetype](https://github.com/liumapp/single-module-spring-boot-archetype)
